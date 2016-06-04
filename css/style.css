@@ -72,52 +72,51 @@ section{
 }
 
 #projects{ 
+	padding-top: 100px;
 	background-color:#DCD0C0;
+}
+
+#project-description{ 
 	font-family: 'Roboto', sans-serif;
 	font-weight:500;
-	font-size: 30px;
-	font-style: normal;
-	text-align:justify;
-	width:100%;
+	font-size: 25px;
+	text-align: distribute;
+	color:#F8EC69;
 }
 
-#projects ul { 
-	list-style-type: none;
-
+#project-name{ 
+	text-align: center; 
 }
 
-.project-box {
-	width:200px;
-	height:300px;
-	background:#C0B283;
-	margin:10px;
-	border-radius:20%;
-}
-
-
-
-
-
-.project-heading{ 
-
-}
-
-.project-heading{ 
-
-
+#project-container{ 
+	background:#cccccc;
 }
 
 #contact{ 
 	background:#373737;
 }
 
+.slide { transition: all .2s ease-in-out; }
+
+.slide:hover { transform: translate(-20px); }
+
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover { transform: scale(1.1); }
 
+.deck img {position:relative;  width:225px; height:400px}
+.deck img + img {margin-left: -200px;}
 
+.center-icon{ 
+	text-align:center;
+}
 
+.center-icon .fa{ 
+	float:none !important;
+	font-size:50px;
+}
 
+.center-icon a{ 
+	color:inherit;
 
-
-
+}

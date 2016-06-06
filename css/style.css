@@ -38,7 +38,6 @@ section{
 	font-style: normal;
 	text-align: center; 
 	color:#DCD0C0;
-
 }
 
 #about-text a{ 
@@ -52,8 +51,8 @@ section{
 #about{
 	height:100vh;
 	font-family: 'Open Sans'; 
-	padding-top:20vh;
-	background:#373737; 
+	padding-top:150px;
+	background:	#BA002E;/*#373737;*/
 }
 
 #about img {
@@ -64,7 +63,7 @@ section{
 
 #projects{ 
 	padding-top: 70px;
-	background-color:#DCD0C0;
+	background-color:#373737;/*#DCD0C0;*/
 }
 
 #project-description{ 
@@ -72,7 +71,7 @@ section{
 	font-weight:500;
 	font-size: 25px;
 	text-align: distribute;
-	color:#F8EC69;
+	color:#F28C38;
 }
 
 .project-name{ 
@@ -84,7 +83,7 @@ section{
 }
 
 #contact{ 
-	background:#373737;
+	background:#BA002E;
 }
 
 .slide { transition: all .2s ease-in-out; }
@@ -95,6 +94,9 @@ section{
 
 .grow:hover { transform: scale(1.1); }
 
+.deck{ 
+	color:#DCD0C0;
+}
 .deck img {position:relative;  width:150px; height:225px;}
 
 .deck img + img {margin-left: -125px;}
@@ -110,4 +112,20 @@ section{
 
 .center-icon a{ 
 	color:inherit;
+}
+
+.project-name{
+	color:#DCD0C0;
+}
+
+#contact{ 
+	height:40vh;
+	padding-top:30px;
+	color:#FFFFFF;
+}
+
+#contact i{
+	font-size:50px;
+	padding:10px;
+	color:#FFFFFF;
 }

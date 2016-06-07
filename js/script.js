@@ -52,4 +52,6 @@ $(document).ready(function(){
 	$('#my-site').click(function(){ 
 		window.location = 'https://github.com/bchung1/Personal-Website';
 	}); 
+
+
 }); 

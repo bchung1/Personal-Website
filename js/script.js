@@ -53,5 +53,14 @@ $(document).ready(function(){
 		window.location = 'https://github.com/bchung1/Personal-Website';
 	}); 
 
+	$('#right-bracket').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){ 
+		$('#dance, #develop').addClass("underline-after"); 
+		$('#chevron-arrow-container').html('<a href="#about"><i class="fa fa-chevron-down bounce" aria-hidden="true"></i></a>');
+	});
+
+
+
+
+
 
 }); 

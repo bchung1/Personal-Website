@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <title>Brian Chung</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,500,600,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/mediaelementplayer.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="page-top">
-    <div id="bboy-clip" class="embed-responsive embed-responsive-16by9 text-center">
-        <video class="embed-responsive-item" preload="auto" autoplay="true" loop="true" src="videos/bboy-video.mp4"></video>
+     <div id="bboy-clip" class="embed-responsive embed-responsive-16by9 text-center">
+        <video id="clip" class="embed-responsive-item" loop="true" src="videos/bboy-video.mp4"></video>
         <div id="title-border">
             <div id="left-bracket" class="animated bounceInLeft"><</div>
             <div id="dance" class="animated fadeInDown underline-before">dance</div>
@@ -23,43 +22,43 @@
         <div id="chevron-arrow-container" class='center-icon page-scroll'>
         </div>
     </div>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a id="brian-chung" class="navbar-brand" href="#page-top"><strong>BRIAN CHUNG</strong></a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="page-scroll"><a href="#about"><strong>ABOUT</strong></a></li>
-                    <li class="page-scroll"><a href="#projects"><strong>PROJECTS</strong></a></li>
-                    <li class="page-scroll"><a href="#contact"><strong>CONTACT</strong></a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="brian-chung" class="navbar-brand" href="#page-top"><strong>BRIAN CHUNG</strong></a>
         </div>
-    </nav>
-    <section id="about">
-     <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="page-scroll"><a href="#about"><strong>ABOUT</strong></a></li>
+                <li class="page-scroll"><a href="#projects"><strong>PROJECTS</strong></a></li>
+                <li class="page-scroll"><a href="#contact"><strong>CONTACT</strong></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="about">
+   <div class="container">
       <div class="row">
         <div  class="col-sm-6">
             <img class="img-responsive" src="img/profile.jpg" alt="">
         </div>
         <p id="about-text" class="col-sm-6 page-scroll">
-         Hi, I'm Brian!<br><br>
+           Hi, I'm Brian!<br><br>
 
-         I'm a Computer Science major at the University of Maryland, College Park Class of 2018. I am an aspiring developer and have a strong passion for technology. If you're interested you can see the projects I've worked on below. <br><br>
+           I'm a Computer Science major at the University of Maryland, College Park Class of 2018. I am an aspiring developer and have a strong passion for technology. If you're interested you can see the projects I've worked on below. <br><br>
 
-         When I'm not coding, I'm usually at the gym or bboying (breakdancing). I've been bboying since high school and continue to dance in college. I'm the current president of <a href="https://www.youtube.com/watch?v=KoGzgPPeMxQ">B-Terps</a>, UMD's one-n-only breakdance club. If you're interested in the club please contact me :) <br><br>
+           When I'm not coding, I'm usually at the gym or bboying (breakdancing). I've been bboying since high school and continue to dance in college. I'm the current president of <a href="https://www.youtube.com/watch?v=KoGzgPPeMxQ">B-Terps</a>, UMD's one-n-only breakdance club. If you're interested in the club please contact me :) <br><br>
 
-         I also enjoy <a href="https://en.wikipedia.org/wiki/Cardistry">cardistry</a>/card magic and practice in my spare time. 
+           I also enjoy <a href="https://en.wikipedia.org/wiki/Cardistry">cardistry</a>/card magic and practice in my spare time. 
 
-     </p>
- </div>
+       </p>
+   </div>
 </div>
 </section>
 
@@ -68,7 +67,7 @@
         <div class="row">
             <div class="deck col-md-6 col-lg-6">
                 <h2 class='text-center'>
-                    Each card represents a project. <br>I plan to reach 52.
+                    Each card represents a project. <br> The goal is 52. 
                 </h2>
                 <img id="summarizer" class="slide" src="img/Aspades.svg" alt="testimage">
                 <img id="catalyst" class="slide" src="img/2spades.svg" alt="testimage">
@@ -116,6 +115,7 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="https://use.fontawesome.com/84faf6c02a.js"></script>
+<script src="js/mediaelement-and-player.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

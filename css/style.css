@@ -5,13 +5,13 @@ video{
 }
 
 #bboy-clip div{ 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Play', sans-serif;
 	display:inline-block;
 	position:relative;
 	font-size:80px;
 	color:white;
 	top:5vh;
-	color:#BA002E;/*#39CCCC;#1E90FF;*/
+	color:#BA002E;
 	text-align:center;
 }
 
@@ -138,7 +138,7 @@ section{
 
 
 #about-text {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Play', sans-serif;
 	font-weight:500;
 	font-size: 20px;
 	font-style: normal;
@@ -156,7 +156,7 @@ section{
 
 #about{
 	height:100vh;
-	font-family: 'Open Sans'; 
+	font-family: 'Play', sans-serif;
 	padding-top:150px;
 	background:	#BA002E;/*#373737;*/
 }

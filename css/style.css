@@ -2,6 +2,7 @@ video{
 	position:absolute;
 	z-index: -1; 
 	  -webkit-filter: brightness(40%); 
+	  filter:brightness(40%);
 }
 
 #bboy-clip div{ 
@@ -263,4 +264,8 @@ section{
     40%  { -webkit-transform: translateY(-20px); }
 	80% { -webkit-transform: translateY(-10px); }
 }
+
+
+
+
 

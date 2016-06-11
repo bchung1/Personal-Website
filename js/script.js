@@ -57,10 +57,12 @@ $(document).ready(function(){
 		$('#dance, #develop').addClass("underline-after"); 
 		$('#chevron-arrow-container').html('<a href="#about"><i class="fa fa-chevron-down bounce" aria-hidden="true"></i></a>');
 	});
-
+/*
 	myVideo = document.getElementById("clip");
 	myVideo.load();
 	myVideo.play();
+*/
 
+ $("#bboy-clip").fitVids();
 
 }); 

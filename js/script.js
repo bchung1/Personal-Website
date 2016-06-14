@@ -55,13 +55,8 @@ $(document).ready(function(){
 
 	$('#right-bracket').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){ 
 		$('#dance, #develop').addClass("underline-after"); 
-		$('#chevron-arrow-container').html('<a href="#about"><i class="fa fa-chevron-down bounce" aria-hidden="true"></i></a>');
+		$('#chevron-arrow-container').html('<a id="chevron-arrow" class="text-center" href="#about"><i class="fa fa-chevron-down faa-float animated faa-fast" aria-hidden="true"></i></a>');
 	});
-/*
-	myVideo = document.getElementById("clip");
-	myVideo.load();
-	myVideo.play();
-*/
 
  $("#bboy-clip").fitVids();
 

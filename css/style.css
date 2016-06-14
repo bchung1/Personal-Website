@@ -14,12 +14,21 @@ iframe{
 	text-align: center;
 }
 
+ #top-black-cover{ 
+	position:absolute;
+	background:#000;
+	width:100%;
+	height:170px;
+	z-index: -1; 
+	top:0;
+}
+
 #homepage-animated-text{ 
 	float:none !important;
 	font-family: 'Play', sans-serif;
 	position:relative;
 	font-size:80px;
-	top:10vh;
+	top:5vh;
 	color:#BA002E; 
 }
 
@@ -34,6 +43,15 @@ iframe{
 	font-size:70px;
 	color:#FFFFFF;
 	top:60vh;
+}
+
+#vimeo-controller-cover{ 
+	position:absolute;
+	background:#000;
+	width:100%;
+	height:100px;
+	bottom:0;
+	z-index: -1; 
 }
 
 .underline-before:before{ 
@@ -92,12 +110,15 @@ iframe{
 	-webkit-animation-duration: 2s;
 }
 
-
-#chevron-arrow-container{
-	position:relative;
-	top:70vh;
+#chevron-arrow{
+	position:absolute;
+	bottom:40px;
 	color:white;
-	font-size:30px;
+	font-size:20px;
+	left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav{
@@ -272,26 +293,6 @@ section{
 #contact h6 span{ 
 	color:#00CCFF;
 }
-
-.bounce {
-    position: absolute;
-    margin: auto;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
-    width: 40px;
-    height: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    -webkit-animation: bounce 2s infinite ease-in-out;
-}
-
-@-webkit-keyframes bounce {
-	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
-    40%  { -webkit-transform: translateY(-20px); }
-	80% { -webkit-transform: translateY(-10px); }
-}
-
-
 
 
 

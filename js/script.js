@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('#summarizer').hover(function(){
 		$('.project-name').html("SUMMERy");
 		$('#project-description').html("SUMMERy is a google chrome extension that summarizes online news articles. This was my submission for Capital One's Software Engineering Summit Challenge 2016. It was selected as one of the top 30 submissions.");
-		$('#project-description').css({'color':'#F28C38'});
+		$('#project-description').css({'color':'#BA002E'});
 		$('.center-icon > a > i').show(); 
 		$('.center-icon > a').attr('href','https://github.com/bchung1/Capital-One-Challenge');
 	});
@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$('#proximity-print').hover(function(){
 		$('.project-name').html('Proximity Print');
 		$('#project-description').html("Proximity Print is a printing service that will allow students to request to print from printers around them.");
-		$('#project-description').css({'color':'#069193'});
+		$('#project-description').css({'color':'#BA002E'});
 		$('.center-icon > a > i').show(); 
 		$('.center-icon > a').attr('href','https://github.com/WHSnyder/print');
 	});
@@ -27,10 +27,18 @@ $(document).ready(function(){
 	$('#my-site').hover(function(){
 		$('.project-name').html('My Website');
 		$("#project-description").html("Description is self-explanatory. Check it out if you're interested!"); 
-		$('#project-description').css({'color':'#5B8DEA'});
+		$('#project-description').css({'color':'#BA002E'});
 		$('.center-icon > a > i').show(); 
 		$('.center-icon > a').attr('href','https://github.com/bchung1/Personal-Website');
 	});
+
+	$('#wiki-preview').hover(function(){ 
+		$('.project-name').html('Wiki-Preview');
+		$("#project-description").html("Wiki-Preview is a google chrome extension that gives you a preview of a wiki page as a tooltip. I made this extension because I was tired of opening dozens of wikipedia tabs :D"); 
+		$('#project-description').css({'color':'#BA002E'});
+		$('.center-icon > a > i').show(); 
+		$('.center-icon > a').attr('href','https://github.com/bchung1/wiki-preview');
+	}); 
 
 	$('.tbd-project').hover(function(){
 		$('.project-name').html('New Project');
@@ -54,7 +62,7 @@ $(document).ready(function(){
 	}); 
 
 	$('#right-bracket').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){ 
-		$('#dance, #develop').addClass("underline-after"); 
+		//$('#dance, #develop').addClass("underline-after"); 
 		$('#chevron-arrow-container').html('<a id="chevron-arrow" class="text-center" href="#about"><i class="fa fa-chevron-down faa-float animated faa-fast" aria-hidden="true"></i></a>');
 	});
 
